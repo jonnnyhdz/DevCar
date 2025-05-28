@@ -4,6 +4,8 @@ import Navbar   from '@/components/Navbar.vue'
 import Footer from '@/components/Footer.vue'
 
 import Select from '@/views/Select.vue'
+import Confirm from '@/views/Confirm.vue'
+import Succes from '@/views/Succes.vue'
 
 const routes = [
   {
@@ -24,11 +26,24 @@ const routes = [
       footer: Footer
     }
   },
-  // si añades más rutas, repite el mismo patrón:
-  // {
-  //   path: '/about',
-  //   components: { default: About, navbar: Navbar }
-  // }
+      {
+    path: '/confirm',
+    name: 'confirm',
+    components: {
+      default: Confirm,   
+      navbar: Navbar,
+      footer: Footer
+    }
+  },
+        {
+    path: '/succes',
+    name: 'succes',
+    components: {
+      default: Succes,   
+      navbar: Navbar,
+      footer: Footer
+    }
+  },
 ]
 
 const router = createRouter({

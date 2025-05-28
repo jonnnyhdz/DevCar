@@ -49,9 +49,11 @@
           <div class="mt-3 text-3xl font-light text-black">
             $621.00 <span class="text-base font-normal">MXN</span>
           </div>
-          <button class="mt-6 bg-[#4B66D4] text-white font-light py-2 px-12 rounded-xl text-sm">
-            RESERVAR
-          </button>
+            <button
+                @click="goToConfirm"
+                  class="mt-6 bg-[#4B66D4] text-white font-light py-2 px-12 rounded-xl text-sm">
+                    RESERVAR
+            </button>
         </div>
 
         <!-- Pago en línea -->
@@ -84,5 +86,13 @@
 import { InformationCircleIcon } from '@heroicons/vue/24/solid'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { Icon } from '@iconify/vue'
+
+import { useRouter } from 'vue-router'
+const router = useRouter()
+
+const goToConfirm = () => {
+  router.push({ name: 'confirm' })
+}
+
 
 </script>

@@ -44,8 +44,7 @@
                 class="w-full bg-white rounded-full shadow-lg pl-10 pr-4 py-3 appearance-none focus:outline-none font-extralight"
               >
                 <option disabled value="">Fecha</option>
-                <option>01/06/2025</option>
-                <option>02/06/2025</option>
+                <option>26/09/2024</option>
               </select>
               <span class="absolute inset-y-0 right-3 flex items-center pointer-events-none">
                 <ChevronDownIcon class="h-4 w-4 text-gray-400" />
@@ -99,8 +98,7 @@
                 class="w-full bg-white rounded-full shadow-lg pl-10 pr-4 py-3 appearance-none focus:outline-none font-extralight"
               >
                 <option disabled value="">Fecha</option>
-                <option>03/06/2025</option>
-                <option>04/06/2025</option>
+                <option>27/09/2024</option>
               </select>
               <span class="absolute inset-y-0 right-3 flex items-center pointer-events-none">
                 <ChevronDownIcon class="h-4 w-4 text-gray-400" />
