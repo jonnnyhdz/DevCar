@@ -6,7 +6,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  base: '/DevCar/', // 👈 nombre exacto de tu repo (case-sensitive)
+  base: '/', // 👈 nombre exacto de tu repo (case-sensitive)
   plugins: [vue(), vueJsx(), vueDevTools(), tailwindcss()],
   resolve: {
     alias: {
